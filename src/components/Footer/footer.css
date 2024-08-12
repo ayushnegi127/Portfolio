@@ -1,0 +1,151 @@
+.footer-container {
+  background: #F0F0F6;
+  padding: 40px 10px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.footer-section.logos {
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.glasses {
+  margin-top: 20px;
+}
+
+.footer-section.main-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-item {
+  text-align: left;
+  margin: 0 10px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.footer-item.badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 300px; 
+}
+
+.footer-item.badges .badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-item.badges .badge img {
+  height: auto;
+  margin-bottom: 5px;
+}
+
+#batch1 {
+  width: 91px;
+}
+
+.footer-item.badges .badge img:not(#batch1) {
+  width: 73px;
+}
+
+.footer-item.badges .badge p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+
+.footer-item h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item ul li {
+  margin-bottom: 5px;
+  line-height: 1.5rem;
+}
+
+.footer-item ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-item ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-item ul.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-item ul.social-links li {
+  margin: 5px 0;
+}
+
+.footer-item.quick-links {
+  margin-right: 130px; 
+}
+
+.footer-item.portfolio {
+  margin-right: 110px; 
+}
+
+.footer-item ul.portfolio-list {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.footer-item ul.portfolio-list li {
+  margin-right: 20px; 
+  white-space: nowrap; 
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom img {
+  margin-right: 5px;
+}

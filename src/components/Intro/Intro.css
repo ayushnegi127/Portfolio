@@ -1,0 +1,205 @@
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 128px;
+    height: 600px; 
+    background-color: #fff;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center; 
+    width: 100vw;
+    max-width: 1300px;
+    padding-left: 10px;
+}
+
+
+.content {
+    max-width: 600px;
+    padding-top: 30px;
+    flex: 1; 
+    margin-bottom: 20px;
+    align-self: flex-start; 
+    margin-top: 20px; 
+    z-index: 10;
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem; 
+}
+
+.content .highlight {
+    color: #fca311;
+}
+
+.content p {
+    font-size: 1rem;
+    margin-bottom: 2rem; 
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hire-me-btn {
+    gap: 10px;
+    font-weight: 600;
+    margin-top: 30px; 
+    border-radius: 5px;
+    border: none;
+    background: #FFB400;
+    transition: transform 0.2s;
+    transition: transform 0.3s;
+}
+
+.hire-me-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+.image-container {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    height: 100%; 
+    width: 50%; 
+    position: relative; 
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    align-self: flex-end; 
+}
+
+
+.iconH {
+    position: absolute;
+    z-index: 1; 
+}
+
+.circle1, .circle2, .circle3 {
+    z-index: 1; 
+}
+
+.circle4, .triangle {
+    z-index: 2; 
+}
+
+.circle1 {
+    top: 18%;
+    left: 4%;
+    width: 26px;
+}
+
+.circle2 {
+    top: 19%;
+    left: 53%;
+    width: 26px;
+}
+
+.circle3 {
+    bottom: 14%;
+    left: 10%;
+    width: 26px;
+}
+
+.circle4 {
+    bottom: 13%;
+    left: 56.5%;
+    width: 26px;
+}
+
+.rectangle1 {
+    bottom: 25%;
+    left: 36%;
+    width: 26px;
+}
+
+.rectangle2 {
+    top: 20.6%;
+    right: 13.2%;
+    width: 26px;
+}
+
+.triangle {
+    bottom: 15%;
+    right: 11.5%;
+    width: 25px;
+}
+
+
+@media (max-width: 1200px) {
+    .circle4, .triangle {
+        display: none; 
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2.5rem; 
+    }
+
+    .content p, .hire-me-btn {
+        font-size: 0.9rem; 
+    }
+
+    .container {
+        flex-direction: column; 
+    }
+
+    .content, .image-container {
+        width: 100%; 
+    }
+
+    .image-container img {
+        padding-top: 0; 
+    }
+
+    .iconH {
+        display: none;
+    }
+}
+
+
+@supports (-ms-ime-align:auto) {
+    .rectangle2 {
+        top: 14.6%;
+        right: 13%;
+        width: 26px;
+    }
+
+    .triangle {
+        bottom: 20%;
+        right: 11.5%;
+        width: 25px;
+    }
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .rectangle2 {
+        top: 23.6%;
+        right: 14.2%;
+        width: 26px;
+    }
+
+    .triangle {
+        bottom: 11%;
+        right: 12.7%;
+        width: 25px;
+    }
+}

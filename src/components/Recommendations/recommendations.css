@@ -1,0 +1,119 @@
+
+.recommendations-section {
+  height: 589.17px; 
+  width: 100%; 
+  background: #F0F0F6;
+  margin: 0 auto; 
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  position: relative;
+  overflow: hidden; 
+}
+
+.recommendations-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.recommendations-section p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 2rem;
+  line-height: 35px;
+}
+
+.recommendations-carousel {
+  display: flex;
+  overflow: hidden; 
+  position: relative;
+}
+
+.recommendations-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+  width: 100%; 
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 0 10px;
+  padding: 20px;
+  flex: 0 0 300px; 
+  max-width: 300px;
+  text-align: left;
+  scroll-snap-align: center;
+}
+
+.recommendation-card .rating {
+  font-size: 1rem;
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+
+.recommendation-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.recommendation-card p {
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+
+.recommendation-author {
+  display: flex;
+  align-items: center;
+}
+
+.recommendation-author img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.recommendation-author h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.recommendation-author p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background: #FFDE8D; 
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background: #FFB400; 
+}
+
+
+.recommendations-carousel::-webkit-scrollbar {
+  display: none;
+}
