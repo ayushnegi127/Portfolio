@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9560090f.css",
+    "main.js": "/Portfolio/static/js/main.7eca8411.js",
+    "static/media/image8.svg": "/Portfolio/static/media/image8.6e30ffc6ab9057b295ef85420c6192a4.svg",
+    "static/media/image7.svg": "/Portfolio/static/media/image7.025d1c941d66b0f14e3b6d82c9aee474.svg",
+    "static/media/image9.svg": "/Portfolio/static/media/image9.db5e8557bccc497630500adb40a1d462.svg",
+    "static/media/Facebook.svg": "/Portfolio/static/media/Facebook.ccb04902b45e5b7340e588479d83fe41.svg",
+    "static/media/Instagram.svg": "/Portfolio/static/media/Instagram.b99f09af380f8142f964a57e00f25e25.svg",
+    "static/media/hero.png": "/Portfolio/static/media/hero.b7e2da783dbac360b0b2.png",
+    "static/media/mail.png": "/Portfolio/static/media/mail.95acf2097babb58eb9d0.png",
+    "static/media/location.png": "/Portfolio/static/media/location.cbd418fc32038d60bd6a.png",
+    "static/media/mobile.png": "/Portfolio/static/media/mobile.41ce66cb1d882348eda1.png",
+    "static/media/LinkedIn.svg": "/Portfolio/static/media/LinkedIn.f3171de12e246f2bffd653a8bb68ff96.svg",
+    "static/media/Logo.svg": "/Portfolio/static/media/Logo.c4c2f2bbf78c8325038a3a38b09f227b.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/circle.svg": "/Portfolio/static/media/circle.d634267ebe085366b997b842193a55cc.svg",
+    "static/media/circleGreen.svg": "/Portfolio/static/media/circleGreen.bbaa84622c1a9cb565227bfb303f442c.svg",
+    "static/media/Rectangle 52.svg": "/Portfolio/static/media/Rectangle 52.ac6123ea3dd26f9e0de6a8f1573434e1.svg",
+    "static/media/rectangle.svg": "/Portfolio/static/media/rectangle.6f0396b9709fa36a6d2732cf28ed32a0.svg",
+    "static/media/Vector.svg": "/Portfolio/static/media/Vector.ed49549be383edb950eec47f8e6bdec9.svg",
+    "static/media/triangle.svg": "/Portfolio/static/media/triangle.828753292c82bc1ed256feeccafdb8d4.svg",
+    "main.9560090f.css.map": "/Portfolio/static/css/main.9560090f.css.map",
+    "main.7eca8411.js.map": "/Portfolio/static/js/main.7eca8411.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9560090f.css",
+    "static/js/main.7eca8411.js"
+  ]
+}
